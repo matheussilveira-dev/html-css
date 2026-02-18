@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: white;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+    min-height: 325px;
+    text-align: center;
+    color: white;
+}
+
+header h1{
+    padding-top: 50px;
+    font-size: 8em;
+    font-family: 'Anton', sans-serif;
+}
+
+header p{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#img01{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+}
+
+#img02{
+    background-image: url('../imagens/background002.jpg');
+    background-position: center center;
+}
+
+.imagem{
+    background-color: rgb(51, 51, 51);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.imagem p{
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s ease;
+}
+
+body a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    
+}
+
+
